@@ -50,4 +50,5 @@ int countPairs3(int* arr, int len, int value) {
         quan += cbinsearch(arr + i + 1, len - i - 1, value - *(arr + i));
         i++;
     }
+    return quan;
 }
