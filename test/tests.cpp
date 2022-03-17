@@ -5,8 +5,8 @@
 
 #include "gtest/gtest.h"
 
-#define ARRSIZE1 100000
-#define ARRSIZE2 200000
+#define ARRSIZE1 1000
+#define ARRSIZE2 2000
 
 int countPairs1(int *arr, int len, int value);
 int countPairs2(int *arr, int len, int value);
