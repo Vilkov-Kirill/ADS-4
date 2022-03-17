@@ -31,7 +31,7 @@ int countPairs2(int* arr, int len, int value) {
     int s = 0;
     while (i < len) {
         k = 0;
-        while (k < len - i) {
+        while (k < len - i - 1) {
             s = *(arr + i) + *(arr + len - k - 1);
             if (s == value) quan++;
             k++;
