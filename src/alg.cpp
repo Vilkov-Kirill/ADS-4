@@ -33,7 +33,6 @@ int countPairs2(int* arr, int len, int value) {
         k = 0;
         while (k < len - i) {
             s = *(arr + i) + *(arr + len - k - 1);
-            //printf("%i %i i:%i k:%i %i\n", *(arr + i), *(arr + len - k - 1), i, k, s == value);
             if (s == value) quan++;
             k++;
         }
